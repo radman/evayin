@@ -6,8 +6,8 @@ Template to use for all new projects.
 Quick Start
 -------------
 
-# Clone the repo, `git clone git@github.com:radman/bootstrap.git ./bootstrapped-app`
-# Remove the `.git` directory
+1. Clone the repo, `git clone git@github.com:radman/bootstrap.git ./bootstrapped-app`
+2. Remove the `.git` directory
 
 Features
 -----------
