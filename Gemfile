@@ -23,7 +23,7 @@ group :assets do
   gem 'twitter-bootstrap-rails'
 
   #gem "less-rails-bootstrap"
-  gem "less-rails-bootstrap-devise", :git => 'git://github.com/bigbento/less-rails-bootstrap-devise.git'
+  #gem "less-rails-bootstrap-devise", :git => 'git://github.com/bigbento/less-rails-bootstrap-devise.git'
 end
 
 gem 'jquery-rails'
