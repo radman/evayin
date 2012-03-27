@@ -7,6 +7,7 @@ Prerequisites
 -------------
 
 * RVM is set up with default gemset containing bundler and with Ruby 1.9.2
+* Postgresql is installed (use brew to install)
 
 Quick Start
 -------------
@@ -18,6 +19,8 @@ Quick Start
 5. Remove the `.git` directory
 6. Create a new repo in your app directory via `git init`
 7. Install gems via `bundle`
+8. Create database via `rake db:create`
+9. Run migrations
 
 Features
 -----------
