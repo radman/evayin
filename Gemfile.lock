@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/bigbento/less-rails-bootstrap-devise.git
+  revision: 18bb9a89713bdc48fc95558981d56fff9d0ef0b1
+  specs:
+    less-rails-bootstrap-devise (2.0.0)
+      less-rails-bootstrap
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -60,6 +67,8 @@ GEM
     less-rails (2.1.8)
       actionpack (>= 3.1)
       less (~> 2.0.7)
+    less-rails-bootstrap (2.0.8)
+      less-rails (~> 2.1.0)
     libv8 (3.3.10.4)
     mail (2.4.4)
       i18n (>= 0.4.0)
@@ -133,6 +142,7 @@ DEPENDENCIES
   devise
   jquery-rails
   json
+  less-rails-bootstrap-devise!
   rails (= 3.2.2)
   sass-rails (~> 3.2.3)
   simple_form

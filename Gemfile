@@ -21,6 +21,9 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 
   gem 'twitter-bootstrap-rails'
+
+  #gem "less-rails-bootstrap"
+  gem "less-rails-bootstrap-devise", :git => 'git://github.com/bigbento/less-rails-bootstrap-devise.git'
 end
 
 gem 'jquery-rails'
