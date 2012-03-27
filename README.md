@@ -3,12 +3,21 @@ Bootstrap
 
 Template to use for all new projects.
 
+Prerequisites
+-------------
+
+* RVM is set up with default gemset containing bundler and with Ruby 1.9.2
+
 Quick Start
 -------------
 
-1. Clone the repo into your app directory, `git clone git@github.com:radman/bootstrap.git`
-2. Remove the `.git` directory
-3. Create a new repo in your app directory via `git init`
+1. Create new project directory `mkdir ~/work/projects/newproject/`
+2. Create rvmrc file `touch ~/work/projects/newproject/.rvmrc`
+3. Add this to the rvmrc file `rvm --create use 1.9.2@newproject`
+4. Clone the repo, `git clone git@github.com:radman/bootstrap.git ~/work/projects/newproject/app`
+5. Remove the `.git` directory
+6. Create a new repo in your app directory via `git init`
+7. Install gems via `bundle`
 
 Features
 -----------
