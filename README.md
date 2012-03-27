@@ -24,6 +24,7 @@ Quick Start
 9. Run migrations
 10. `heroku create --stack cedar`
 11. `git push heroku master`
+12. `heroku run rake db:migrate`
 
 Features
 -----------
