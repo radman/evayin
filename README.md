@@ -8,6 +8,7 @@ Prerequisites
 
 * RVM is set up with default gemset containing bundler and with Ruby 1.9.2
 * Postgresql is installed (use brew to install)
+* Heroku Toolbelt is installed
 
 Quick Start
 -------------
@@ -21,6 +22,8 @@ Quick Start
 7. Install gems via `bundle`
 8. Create database via `rake db:create`
 9. Run migrations
+10. `heroku create --stack cedar`
+11. `git push heroku master`
 
 Features
 -----------
@@ -32,5 +35,6 @@ The template is currently set up with the following main gems/features:
 * Twitter Bootstrap
 * SimpleForm
 * Twitter Bootstrap styles for Devise
+* Runs on Postgres (for easy integration with Heroku)
 * Demo table & pages (products)
 
