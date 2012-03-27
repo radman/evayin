@@ -6,8 +6,9 @@ Template to use for all new projects.
 Quick Start
 -------------
 
-1. Clone the repo, `git clone git@github.com:radman/bootstrap.git ./bootstrapped-app`
+1. Clone the repo into your app directory, `git clone git@github.com:radman/bootstrap.git`
 2. Remove the `.git` directory
+3. Create a new repo in your app directory via `git init`
 
 Features
 -----------
