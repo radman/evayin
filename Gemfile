@@ -41,3 +41,4 @@ gem 'jquery-rails'
 # gem 'ruby-debug'
 
 gem 'simple_form'
+gem 'devise'
