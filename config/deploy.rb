@@ -1,3 +1,5 @@
+require "bundler/capistrano"
+
 server "ec2-23-20-233-215.compute-1.amazonaws.com", :app, :web, :db, :primary => true
 
 set :application, "bootstrap"
