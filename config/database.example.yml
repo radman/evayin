@@ -13,5 +13,5 @@ production:
   database: bootstrap_production
   pool: 5
   host: localhost
-  user: bootstrap
+  username: bootstrap
   password: secret
