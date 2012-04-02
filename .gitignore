@@ -15,3 +15,6 @@
 /tmp
 
 *.swp
+
+# Don't check in database config
+config/database.yml

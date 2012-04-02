@@ -1,4 +1,5 @@
 development:
-  adapter: postgresql
+  adapter: mysql2
   database: bootstrap
-  host: localhost
+  user: root
+  password: root
