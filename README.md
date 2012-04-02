@@ -8,6 +8,10 @@ Prerequisites
 
 * RVM is set up with default gemset containing bundler and with Ruby 1.9.2
 
+Preview
+--------
+See bootstrap.raduvlad.com
+
 Quick Start
 -------------
 
@@ -21,10 +25,30 @@ Quick Start
 8. Create database via `rake db:create`
 9. Run migrations
 
+Capistrano Setup
+-----------------
+* may need to choose a different server to deploy to
+* apps are deployed to /webapps directory on the app server
+
+Apache Setup
+------------
+* something like the below in the conf
+
+<pre>
+<VirtualHost *:80>
+  ServerName bootstrap.raduvlad.com
+  DocumentRoot /webapps/bootstrap/current/public
+  <Directory /webapps/bootstrap/current/public>
+    AllowOverride all
+    Options -MultiViews
+  </Directory>
+</VirtualHost>
+</pre>
+
 Features
 -----------
 
-The template is currently set up with the following main gems/features:
+The template is currently set up with the following main gems/features in mind:
 
 * Rails 3.2.2
 * Devise
@@ -34,3 +58,5 @@ The template is currently set up with the following main gems/features:
 * Demo table & pages (products)
 * MySQL
 * Ruby 1.9.2
+* Git (with repo stored on GitHub)
+* Capistrano
