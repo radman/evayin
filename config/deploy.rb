@@ -8,9 +8,7 @@ load "config/recipes/nodejs"
 load "config/recipes/rbenv"
 load "config/recipes/check"
 
-#server "ec2-23-20-233-215.compute-1.amazonaws.com", :app, :web, :db, :primary => true
-#server "ec2-107-21-188-84.compute-1.amazonaws.com", :app, :web, :db, :primary => true
-server "ec2-50-17-91-136.compute-1.amazonaws.com", :app, :web, :db, :primary => true
+server "ec2-107-22-92-27.compute-1.amazonaws.com", :app, :web, :db, :primary => true
 
 set :application, "bootstrap"
 set :user, "deployer"
