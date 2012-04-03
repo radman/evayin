@@ -12,5 +12,17 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require twitter/bootstrap
-//= require_tree .
+//= require cufon-yui
+//= require Aller.font
+//= require jquery.tipsy
+//= require_self
+
+Cufon.replace('h1');
+Cufon.replace('.item h2');
+Cufon.replace('h2.cv-section-name');
+
+$(document).ready(function() {
+  $('.tip').tipsy({ gravity: 'n' });
+});
+
+

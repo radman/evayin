@@ -1,0 +1,23 @@
+.contact-info
+  %ul#social-media
+    %li
+      = link_to "http://facebook.com/radu.a.vlad", :target => "_blank", :title => "Facebook Profile", :class => "tip" do
+        = image_tag "facebook_32.png"
+
+    %li
+      = link_to "http://linkedin.com/in/raduvlad", :target => "_blank", :title => "LinkedIn Profile", :class => "tip" do
+        = image_tag "linkedin_32.png"
+
+    %li
+      = link_to "http://github.com/radman", :target => "_blank", :title => "GitHub Profile", :class => "tip" do
+        = image_tag "github_32.png"
+    
+    %li
+      = link_to "mailto:radu@raduvlad.com", :title => "Send me a message", :class => "tip" do
+        = image_tag "email_32.png"
+
+%style
+  :sass
+    #social-media a
+      text-decoration: none
+

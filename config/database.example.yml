@@ -1,7 +1,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: bootstrap_development
+  database: raduvlad_development
   pool: 5
   host: localhost
   username: radu
@@ -10,7 +10,7 @@ development:
 production:
   adapter: postgresql
   encoding: unicode
-  database: bootstrap_production
+  database: raduvlad_production
   pool: 5
   host: localhost
   username: bootstrap
