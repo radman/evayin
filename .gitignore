@@ -15,6 +15,7 @@
 /tmp
 
 *.swp
+*.DS_Store
 
 # Don't check in database config
 config/database.yml
