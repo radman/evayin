@@ -1,10 +1,10 @@
-upstream unicorn {
+upstream unicorn_<%= application %> {
   server unix:/tmp/unicorn.<%= application %>.sock fail_timeout=0;
 }
 
 server {
-  listen 80 default deferred;
-  # server_name example.com;
+  listen 80;
+  server_name bootstrap.raduvlad.com;
   root <%= current_path %>/public;
 
   location ^~ /assets/ {
