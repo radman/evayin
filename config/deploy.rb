@@ -10,7 +10,7 @@ load "config/recipes/check"
 
 server "23.21.115.207", :app, :web, :db, :primary => true
 
-set :application, "raduvlad"
+set :application, "evayin"
 set :user, "deployer"
 set :deploy_to, "/home/#{user}/apps/#{application}"
 set :deploy_via, :remote_cache
