@@ -19,3 +19,5 @@
 
 # Don't check in database config
 config/database.yml
+.rbenv-version
+/vendor/bundle
