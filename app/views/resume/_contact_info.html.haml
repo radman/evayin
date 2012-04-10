@@ -1,20 +1,21 @@
 .contact-info
   %ul#social-media
     %li
-      = link_to "http://www.facebook.com/yinzhenzhi", :target => "_blank", :title => "Facebook Profile", :class => "tip" do
-        = image_tag "facebook.png"
-
-    %li
       = link_to "http://www.linkedin.com/pub/eva-yin/37/99a/194", :target => "_blank", :title => "LinkedIn Profile", :class => "tip" do
         = image_tag "linkedin.png"
 
     %li
-      = link_to "https://twitter.com/eva_yin", :target => "_blank", :title => "GitHub Profile", :class => "tip" do
+      = link_to "https://twitter.com/eva_yin", :target => "_blank", :title => "Follow me on Twitter", :class => "tip" do
         = image_tag "twitter.png"
+
+    %li
+      = link_to "http://www.meetup.com/20s-30s-Social-Meetup/", :title => "Check out my Meetup", :class => "tip" do
+        = image_tag "meetup.png"
     
     %li
       = link_to "mailto:eva@evayin.com", :title => "Send me a message", :class => "tip" do
         = image_tag "email.png"
+            
 
 %style
   :sass
