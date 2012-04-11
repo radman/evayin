@@ -148,6 +148,7 @@ ul#social-media li {
   border-bottom: none; }
 
 .person h2 {
+  width: 500px;
   color: #475261;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
