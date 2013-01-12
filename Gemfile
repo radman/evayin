@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "rails", "3.2.2"
+gem "rails", "3.2.11"
 gem "pg"
 
 gem "json"
@@ -10,6 +10,10 @@ group :assets do
   gem "coffee-rails", "~> 3.2.1"
   gem "uglifier", ">= 1.0.3"
   gem "twitter-bootstrap-rails"
+end
+
+group :development do
+  gem "debugger"
 end
 
 gem "unicorn"
